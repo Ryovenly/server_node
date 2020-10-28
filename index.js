@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const api = {"message": "Hello World!"}
+const api = {"message": "Hello World"}
 
 app.listen(18000, () => {
     console.log("Serveur à l'écoute")
